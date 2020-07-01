@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+.template{
+    height: 400px;
+    padding:100px 200px;
+}
+
+.half-width{
+    width:50%;
+    float:left;
+
+}
+.half-width img{
+    width:100%;
+}
+
+.content{
+    margin-top:90px;
+}
+
+.content h2{
+    font-size: 40px;
+    font-weight:bold;
+    margin-bottom: 10px;
+ }
+.content h1{
+   color:rgb(228, 34, 124);
+   font-size: 60px;
+   font-weight: bolder;
+   margin-bottom: 20px;
+}
+.content p{
+    color:rgb(59, 56, 57);
+    margin-bottom: 20px;
+ }
+
+.content button{
+    background-color:rgb(228, 34, 124);
+    padding: 15px 30px;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 15px;
+ }
+
+.header{
+    background-image: url('images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.biography .content{
+    margin-left: 20px;
+}
+.biography{
+    background-image: url('images/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.latest-work h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.work-group{
+    width: 100%;
+    margin: 40px auto;
+}
+.work{
+    width:30%;
+    margin-right: 3%;
+    float: left;
+}
+.work img{
+    width: 100%;
+}
+
+.latest-work{
+    background-image: url('images/latest-work-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.template .latest-work{
+    height: 300px;
+    padding:100px 200px;
+}
+
+.footer .footer-content{
+    text-align: center;
+}
+.footer-content h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px auto 60px;
+}
+.footer-content h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer-content h5{
+    font-size: 18px;
+    color:gray;
+    padding:10px auto;
+}
+
+.footer-content p{
+    font-size: 18px;
+    margin-top: 50px;
+    width: 50%;
+    margin: 40px auto 20px;
+    
+}
+.contract{
+    background-color:rgb(233, 66, 144);
+    padding: 30px 40px;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    margin:20px auto;
+    width: 50%;
+    text-align: center;
+}
+.contract .h1{
+    font-size:30px;
+
+}
+.footer{
+    background-image: url('images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.copyright{
+    text-align: center;
+    color: gray;
+    font-size: 18px;
+    margin: 60px auto 10px;
+}
